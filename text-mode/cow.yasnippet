@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: cow
+# key: cow
+# binding: "C-c C-c C-m"
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+
+
+`(shell-command (concat "cowsay '" yas/selected-text "'"))`
